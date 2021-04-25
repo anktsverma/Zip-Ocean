@@ -1,0 +1,120 @@
+#loader { 
+      border: 12px solid #f3f3f3; 
+      border-radius: 50%; 
+      border-top: 12px solid #444444; 
+      width: 70px; 
+      height: 70px; 
+      animation: spin 1s linear infinite; 
+    } 
+    
+    @keyframes spin { 
+      100% { 
+        transform: rotate(360deg); 
+      } 
+    } 
+    
+    .center { 
+      position: absolute; 
+      top: 0; 
+      bottom: 0; 
+      left: 0; 
+      right: 0; 
+      margin: auto; 
+    } 
+    .mymain .navbar .nav-item .nav-link{
+      color: white;
+    }
+    .mymain .navbar .nav-item:hover .nav-link{
+      color:#61DAFB ;
+    }
+   #banner{
+    margin:0px;
+    width:auto;
+    background: url("../banner.jpg") no-repeat center; 
+    background-size:cover;
+    height:95vh;
+
+   }
+   #myfooter{
+    opacity: .7;
+    background-color:black ;
+    color:white;
+   }
+   #slogo{
+       position: absolute;
+       margin-top: 50vh;
+       margin-left: 80vw;
+       background-attachment: fixed;
+
+   }
+
+   #ini-txt{
+   display:inline-block;
+  margin-top:35vh;
+  margin-left:3vw;
+  font:1.5em;
+  color:white;
+  position:absolute;
+  font-family: 'Indie Flower', cursive;
+}
+
+.word {
+  display:inline-block;
+  margin-top:41vh;
+  margin-left:11vw;
+  color:#61DAFB;
+  font: 700 normal 3em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+        padding:30px;
+        font-weight:bold;
+}
+@media (max-width:575.98px) {
+  #ini-txt{
+   display:inline-block;
+  margin-top:10% !important;
+  margin-left:17% !important;
+  font-size:1em;
+  color:white;
+  position:absolute;
+}
+
+  .word {
+  display:inline-block;
+  margin-top:12% !important;
+  margin-left:27% !important;
+  color:#61DAFB;
+  font: 700 normal 1em 'tahoma';
+    border:none;
+    text-shadow:none;
+}
+
+
+}
+.mymain{
+  background:url("../bg.jpg") no-repeat center ;
+  background-size:cover;
+}
+.cardimg{
+  height:250px;
+}
+.row{
+  margin-top:30px;
+}
+section{
+  margin-top:50px;
+  margin-bottom:50px;
+  padding:30px;
+  background-color:rgba(255,255,255,.9);
+}
+section h1{
+  text-align:center;
+  margin-bottom:30px;
+}
+section p
+{
+  float:right;
+}
+
+.lft{
+  float:left;
+}
